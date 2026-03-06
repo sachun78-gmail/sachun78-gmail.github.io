@@ -1,0 +1,40 @@
+name: "배혁준"
+headline: "Full Stack · Android(AOSP) · IoT · Embedded Engineer"
+summary:
+  - "Web / Mobile / Server 전체를 설계하고 구현하는 Full Stack 개발자입니다."
+  - "AOSP 기반 디바이스, 로봇, TV 런처까지 포함한 멀티 플랫폼 환경을 다뤄왔습니다."
+  - "BLE/Wi-Fi 연동, 공간 연산, 인증/보안 아키텍처까지 실무 중심으로 구축했습니다."
+
+skills:
+  - "Astro"
+  - "TypeScript"
+  - "Fastify"
+  - "Supabase"
+  - "Expo React Native"
+  - "Vue.js"
+  - "Flutter"
+  - "Spring Boot"
+  - "Node.js"
+  - "Kotlin"
+  - "AOSP"
+  - "C"
+  - "Linux"
+  - "MySQL"
+  - "MariaDB"
+  - "MongoDB"
+  - "MSSQL"
+  - "SQLite3"
+
+core_competencies:
+  - title: "Full Stack Development"
+    items:
+      - "Vue / Flutter / React Native / Spring Boot / Node.js / Fastify"
+  - title: "Embedded & AOSP"
+    items:
+      - "Linux / C / AOSP / Device Integration"
+  - title: "IoT & Robotics"
+    items:
+      - "BLE / Wi-Fi / SLAM / JTS Geometry"
+  - title: "Security & Architecture"
+    items:
+      - "JWT / RLS / Rate Limiting / NDK Security / Clean Architecture"

@@ -1,0 +1,91 @@
+:root {
+  --bg: #f7f8fb;
+  --surface: #ffffff;
+  --text: #111827;
+  --muted: #4b5563;
+  --line: #d1d5db;
+  --accent: #0f766e;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Pretendard", "Noto Sans KR", "Malgun Gothic", sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  width: min(920px, calc(100% - 2rem));
+  margin: 0 auto;
+}
+
+.page-header {
+  padding: 2.5rem 0 1rem;
+}
+
+.page-header h1 {
+  margin: 0;
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+}
+
+.headline {
+  margin-top: 0.5rem;
+  color: var(--muted);
+}
+
+h2 {
+  margin-top: 2rem;
+  border-bottom: 2px solid var(--line);
+  padding-bottom: 0.4rem;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.chip {
+  background: #e6fffb;
+  border: 1px solid #99f6e4;
+  color: #115e59;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 1rem 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  margin: 0 0 0.35rem;
+}
+
+.card h3 small {
+  color: var(--muted);
+  font-size: 0.85em;
+}
+
+.meta {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+ul {
+  margin-top: 0.35rem;
+}
+
+.page-footer {
+  padding: 2rem 0 2.5rem;
+  color: var(--muted);
+}

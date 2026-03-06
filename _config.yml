@@ -1,0 +1,14 @@
+title: "개발자 포트폴리오"
+description: "Full Stack / Android(AOSP) / IoT / Embedded Engineer"
+lang: ko-KR
+timezone: Asia/Seoul
+
+markdown: kramdown
+theme: null
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
