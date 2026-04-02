@@ -14,6 +14,7 @@
     - "Navigation Compose"
     - "Reorderable (리스트 정렬)"
     - "minSdk 26 / targetSdk 35"
+  download_url: "https://github.com/sachun78-gmail/BGPlayer/releases/tag/v1.0.0"
   overview: "YouTube 영상의 오디오를 백그라운드에서 재생할 수 있는 Android 앱. WebView 기반 YouTube 탐색, 찜 목록 관리, 미디어 세션 기반 백그라운드 재생을 제공."
   architecture:
     - "Clean Architecture 기반 레이어 분리"

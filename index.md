@@ -26,6 +26,9 @@ title: 포트폴리오
   {% if p.site_url %}
   <p><strong>서비스 링크:</strong> <a href="{{ p.site_url }}" target="_blank" rel="noopener noreferrer">{{ p.site_url | escape }}</a></p>
   {% endif %}
+  {% if p.download_url %}
+  <p><strong>다운로드:</strong> <a href="{{ p.download_url }}" target="_blank" rel="noopener noreferrer">{{ p.download_url | escape }}</a></p>
+  {% endif %}
   <p><strong>개요:</strong> {{ p.overview | escape }}</p>
 
   {% if p.tech_stack %}
